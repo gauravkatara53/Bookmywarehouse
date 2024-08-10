@@ -1,0 +1,18 @@
+/* Tailwind Imports */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: "Lexend", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  transition: all 0.1s;
+}
+
+.css-text-stroke {
+  -webkit-text-stroke: 4px navy;
+}
