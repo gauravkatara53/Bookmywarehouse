@@ -1,4 +1,3 @@
-import { ChevronSVG } from "@/assets/svgs";
 import { FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
 
 export default function WHFooter() {
