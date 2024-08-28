@@ -76,12 +76,18 @@ const SignUp = () => {
     navigate("/home");
   };
 
+  // Define the onMenuToggle function
+  const onMenuToggle = () => {
+    // Logic to toggle the menu
+    console.log("Menu toggled");
+  };
+
   return (
     <>
       <div className="min-h-screen bg-white">
         {/* Navbar is fixed only on mobile */}
         <div className="md:relative fixed w-full z-10">
-          <Navbar />
+          <Navbar onMenuToggle={onMenuToggle} />
         </div>
 
         {/* Add top padding on mobile to prevent overlap with the Navbar */}
