@@ -6,12 +6,12 @@ const logos = [
   "/logo2.png",
   "/logo3.png",
   "/logo4.png",
-  "/public/logo5.png",
-  "/public/logo6.png",
-  "/public/logo7.png",
-  "/public/logo8.png",
-  "/public/logo9.png",
-  "/public/logo10.png",
+  "/logo5.png",
+  "/logo6.png",
+  "/logo7.png",
+  "/logo8.png",
+  "/logo9.png",
+  "/logo10.png",
 ];
 
 export default function OurPartnersAndInvestors() {
