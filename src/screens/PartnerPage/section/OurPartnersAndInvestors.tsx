@@ -22,7 +22,7 @@ export default function OurPartnersAndInvestors() {
         backgroundPosition: "center",
         backgroundSize: "cover",
       }}
-      className="flex flex-col gap-4 items-center lg:mx-32 md:mx-16 sm:mx-8 mx-4 p-8 sm:p-16 rounded-[7rem] sm:rounded-[2rem] md:rounded-[7rem] justify-center"
+      className="flex flex-col gap-4 items-center lg:mx-32 md:mx-16 sm:mx-8 mx-4 p-8 sm:p-16 rounded-[3rem] sm:rounded-[2rem] md:rounded-[7rem] justify-center"
     >
       <p className="text-white text-3xl sm:text-6xl font-extrabold text-center">
         Our Partners and Investors
