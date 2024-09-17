@@ -8,7 +8,7 @@ export default function APage1() {
       <div>
         <WHNavbar dark />
       </div>
-      <div className="mt-24 md:mx-16  mx-4 mb-10">
+      <div className="mt-24 md:mx-28  mx-4 mb-10">
         <div className=" md:col-span-4">
           <APWrapper
             large

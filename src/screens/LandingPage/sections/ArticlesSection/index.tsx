@@ -50,16 +50,21 @@ export default function ArticleSection() {
           />
         </div>
         <div className="hidden md:block md:col-span-4">
-          <LPArticleWrapper
-            large
-            img2="article4.png"
-            title="10 Tips for First-Time Homebuyers"
-            description="Want to buy a house but are unsure about what to consider? Here, I will explain the essential tips that every first-time homebuyer should know."
-            date={"15 sept"}
-            readTime="2"
-            name="Dianne Russell"
-            img="danial.png"
-          />
+          <Link
+            to="/article-page1"
+            onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+          >
+            <LPArticleWrapper
+              large
+              img2="article4.png"
+              title="10 Tips for First-Time Homebuyers"
+              description="Want to buy a house but are unsure about what to consider? Here, I will explain the essential tips that every first-time homebuyer should know."
+              date={"15 sept"}
+              readTime="2"
+              name="Dianne Russell"
+              img="danial.png"
+            />
+          </Link>
         </div>
       </div>
     </div>
